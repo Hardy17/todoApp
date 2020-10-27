@@ -5,7 +5,8 @@ import {todoList} from '../index';
   const txtInput= document.querySelector('.new-todo');
   const btnBorrar= document.querySelector('.clear-completed');
   const ulFilters=document.querySelector('.filters');
-  const anchorFiltro= document.querySelectorAll('.filtro')
+  const anchorFiltro= document.querySelectorAll('.filtro');
+  export const countTodo = document.querySelector('.todo-count');
 //Creamos  la lista dinamicamente
 export const crearTodoHtml =(todo)=>{
     const htmlTodo= `
